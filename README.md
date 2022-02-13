@@ -18,6 +18,6 @@
 * touch {0..100000}
 * 300000 не создаёт. Слишком длинный список аргументов. Ограничение ОС.
 #### 11. Конструкт [[ ]] - некое подобие оператора if. [[-d /tmp]] - проверка на существование каталога.
-#### 12. mkdir /tmp/new_path_directory/ && cp /bin/bash /tmp/new_path_directory/ && export PATH=$PATH:/tmp/new_path_directory/
+#### 12. mkdir /tmp/new_path_directory/; cp /bin/bash /tmp/new_path_directory/; export PATH=$PATH:/tmp/new_path_directory/
 #### 13. Команда **at** используется для назначения одноразового задания на заданное время, а команда **batch** — для назначения одноразовых задач, которые должны выполняться, когда загрузка системы становится меньше 0,8.
 #### 14. Done
